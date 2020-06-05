@@ -11,7 +11,7 @@
   --secondary-font: 'Josefin Sans', sans-serif;
 }
 
-li {
+/* li {
   display: inline-block;
   padding: 10px 20px;
   color: white;
@@ -28,11 +28,11 @@ ul {
 
 li:hover {
   background-color: orange;
-}
+} */
     
-#special {
+/* #special {
   margin-left:-5px;
-}
+} */
 
 nav .brand-logo {
   font-family: 'Josefin Sans', sans-serif;
