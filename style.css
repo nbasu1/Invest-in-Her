@@ -11,28 +11,24 @@
   --secondary-font: 'Josefin Sans', sans-serif;
 }
 
-/* li {
-  display: inline-block;
-  padding: 10px 20px;
-  color: white;
-  border-right: 2px solid green;
-  border-left: 2px solid green;
+.btn,
+.btn-large,
+.btn-small {
+  background-color: var(--primary-color);
+  font-family: 'Playfair Display', serif;
+  font-family: var(--primary-font);
 }
 
-ul {
-  list-style-type: none;
-  background-color: rgb(70,70,70);
-  margin: 0;
-  padding: 0;
+.btn:hover,
+.btn-large:hover,
+.btn-small:hover {
+  background-color: var(--primary-color-darken-1);
 }
 
-li:hover {
-  background-color: orange;
-} */
-    
-/* #special {
-  margin-left:-5px;
-} */
+.section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 
 nav .brand-logo {
   font-family: 'Josefin Sans', sans-serif;
