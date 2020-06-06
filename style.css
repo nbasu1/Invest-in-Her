@@ -31,13 +31,13 @@ ul {
   margin: 0;
   padding: 0;
 }
-
-li:hover {
-  background-color: #bd8ca3;
-}
     
 #special {
   float: right;
+}
+
+#special:hover {
+  background-color: #bd8ca3;
 }
 
 a {
