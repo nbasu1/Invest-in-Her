@@ -33,9 +33,9 @@ li:hover {
     
 #special {
   margin-left:-5px;
-}*/
+}
 
-.btn,
+/*.btn,
 .btn-large,
 .btn-small {
   background-color: var(--primary-color);
@@ -62,8 +62,8 @@ nav .brand-logo {
 
 .logo-em {
   color: var(--primary-color);
-  font-family: 'Playfair Display', serif; /* IE fallback */
+  font-family: 'Playfair Display', serif;  /IE fallback/ 
   font-family: var(--primary-font);
   font-style: italic;
   font-size: 1.9rem;
-}
+}*/
