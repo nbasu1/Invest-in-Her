@@ -14,9 +14,8 @@
 li {
   display: inline-block;
   padding: 10px 20px;
-  color: white;
-  border-right: 2px black;
-  border-left: 2px black;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
   margin-left:-5px;
 }
 
@@ -28,12 +27,16 @@ ul {
 }
 
 li:hover {
-  background-color: black;
+  background-color: gray;
 }
     
 #special {
   position: relative;
   float: right;
+}
+
+.top {
+  color: white;
 }
 
 /*.btn,
