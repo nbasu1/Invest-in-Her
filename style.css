@@ -34,6 +34,7 @@ ul {
     
 #special {
   float: right;
+  margin: 0;
 }
 
 #special:hover {
