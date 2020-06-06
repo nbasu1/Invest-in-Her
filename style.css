@@ -14,9 +14,8 @@
 li {
   display: inline-block;
   padding: 10px 20px;
-  border-right: 2px solid black;
-  border-left: 2px solid black;
   margin-left:-5px;
+  color: white;
 }
 
 ul {
@@ -35,8 +34,8 @@ li:hover {
   float: right;
 }
 
-.top {
-  color: white;
+a {
+  text-decoration: none;
 }
 
 /*.btn,
