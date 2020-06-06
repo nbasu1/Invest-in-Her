@@ -14,29 +14,32 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Open Sans;
+  font-size: 20px;
 }
 
 li {
   display: inline-block;
-  padding: 10px 20px;
-  margin-left:-5px;
+  padding: 17px 20px;
   color: white;
+  margin-left: 30px;
 }
 
 ul {
   list-style-type: none;
   background-color: #FFA6D0;
   margin: 0;
-  padding: 0;
+  padding: 7 px;
 }
 
 li:hover {
-  background-color: gray;
+  background-color: #bd8ca3;
 }
     
 #special {
-  position: relative;
   float: right;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 a {
