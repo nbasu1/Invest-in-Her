@@ -1,40 +1,28 @@
-/*:root {
-  --black: #404040;
-  --primary-color: #81d4fa; 
-  --primary-color-lighten-1: #b3e5fc;
-  --primary-color-darken-1: #4fc3f7;
-  --secondary-color: #ff7043; 
-  --secondary-color-lighten-1: #ff8a65;
-  --secondary-color-darken-1: #ff5722;
-  --tertiary-color: #ffeb3b;
-  --primary-font: 'Playfair Display', serif;
-  --secondary-font: 'Josefin Sans', sans-serif;
-}*/
-
 * {
   margin: 0;
   padding: 0;
-  font-family: Open Sans;
-  font-size: 20px;
+  font-family: Playfair Display;
+  font-size: 17px;
 }
 
 li {
   display: inline-block;
   padding: 17px 20px;
   color: white;
-  margin-left: 30px;
 }
 
 ul {
   list-style-type: none;
   background-color: #FFA6D0;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding-right: 100px;
+  padding-left: 100px;
 }
     
 #special {
   float: right;
-  margin: 0;
+  padding-top: 21px;
+  padding-bottom: 22px;
 }
 
 #special:hover {
@@ -46,35 +34,7 @@ a {
   color: inherit;
 }
 
-/*.btn,
-.btn-large,
-.btn-small {
-  background-color: var(--primary-color);
-  font-family: 'Playfair Display', serif;
-  font-family: var(--primary-font);
+.logo {
+  font-family: Josefin Sans;
+  font-size: 30px;
 }
-
-.btn:hover,
-.btn-large:hover,
-.btn-small:hover {
-  background-color: var(--primary-color-darken-1);
-}
-
-.section {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-nav .brand-logo {
-  font-family: 'Josefin Sans', sans-serif;
-  font-family: var(--secondary-font);
-  font-size: 1.6rem;
-}
-
-.logo-em {
-  color: var(--primary-color);
-  font-family: 'Playfair Display', serif;  /IE fallback/ 
-  font-family: var(--primary-font);
-  font-style: italic;
-  font-size: 1.9rem;
-}*/
