@@ -35,13 +35,11 @@
   background-color: var(--secondary-color);
 }
 
-nav .right.hide-on-med-and-down {
-  color: blue !important;
+nav ul a {
+  font-size: 17px;
 }
 
 nav {
-  color: blue;
   height: 70px;
   line-height: 70px;
-  font-size: 80px;
 }
