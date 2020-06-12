@@ -53,3 +53,7 @@ nav .sidenav-trigger i
 .no-shadow {
   box-shadow: none;  
 }
+
+img {
+  width: 100%;
+}
