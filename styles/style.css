@@ -14,8 +14,8 @@
 
 * {
   font-family: var(--secondary-font);
-  /*font-size: var(--primary-font-size);*/
-  /*color: var(--text-color);*/
+  font-size: var(--primary-font-size);
+  color: var(--text-color);
 }
 
 /* Special styles for screens the size of a phone */
@@ -48,4 +48,8 @@ nav .sidenav-trigger i
 {
   height: 70px;
   line-height: 70px;
+}
+
+.no-shadow {
+  box-shadow: none;  
 }
