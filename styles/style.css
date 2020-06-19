@@ -3,11 +3,11 @@
   --primary-color: #a3a3a3; 
   --primary-color-lighten-1: #cfcfcf;
   --primary-color-darken-1: #4f4e4e;
-  --secondary-color: #0a0078; /* #FFA6D0 */
+  --secondary-color: #0a0078; /* #FFA6D0*/
   --secondary-color-lighten-1: #0073ff; /* #edc2d7 */
   --secondary-color-darken-1: #050038; /* #bd8ca3 */
   --tertiary-color: #214c96;
-  --primary-font: 'Playfair Display', serif;
+  --primary-font: 'Roboto Slab', serif;
   --secondary-font: 'Josefin Sans', sans-serif;
   --primary-font-size: 50 px;
 }
@@ -19,12 +19,12 @@
 }
 
 /* Special styles for screens the size of a phone */
-@media (max-width: 375px) {
+/*@media (max-width: 375px) {
   nav {
     height: 60px;
     line-height: 60px;
   }
-}
+}*/
 
 @media only screen and (min-width: 993px) {
   .container {
@@ -41,7 +41,7 @@ nav ul a {
 }
 
 nav ul a:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 nav {
@@ -67,7 +67,7 @@ nav .sidenav-trigger i
 
 .contain {
   position: absolute;
-  top: 45%;
+  top: 43%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -78,6 +78,5 @@ nav .sidenav-trigger i
 
 .beginning {
   font-size: 100px;
-  color: white;
   font-family: 'Roboto Slab', serif;
 }
