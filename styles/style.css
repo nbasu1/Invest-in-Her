@@ -4,8 +4,8 @@
   --primary-color-lighten-1: #cfcfcf;
   --primary-color-darken-1: #4f4e4e;
   --secondary-color: #0a0078; /* #FFA6D0 */
-  --secondary-color-lighten-1: #edc2d7;
-  --secondary-color-darken-1: #bd8ca3;
+  --secondary-color-lighten-1: #0073ff; /* #edc2d7 */
+  --secondary-color-darken-1: #050038; /* #bd8ca3 */
   --tertiary-color: #214c96;
   --primary-font: 'Playfair Display', serif;
   --secondary-font: 'Josefin Sans', sans-serif;
@@ -58,4 +58,26 @@ nav .sidenav-trigger i
 
 .no-shadow {
   box-shadow: none;  
+}
+
+.cta-container {
+  position: relative;
+  text-align: center;
+}
+
+.contain {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.secondary-text-lighten {
+  color: var(--secondary-color-lighten-1);
+}
+
+.beginning {
+  font-size: 100px;
+  color: white;
+  font-family: 'Roboto Slab', serif;
 }
