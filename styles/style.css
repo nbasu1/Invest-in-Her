@@ -67,16 +67,6 @@ nav .sidenav-trigger i
   bottom: 38px;
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 735px), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
-  .cta-container{
-    background-image: url("https://live.staticflickr.com/65535/50024948852_f58d5f5bbc_z.jpg");
-  }
-  .contain {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-}
-
 /*.hero-image {
   width: 100%;
   object-fit: cover;
@@ -91,6 +81,16 @@ nav .sidenav-trigger i
   margin: auto;
   padding-top: 170px;
   padding-bottom: 280px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 735px), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .cta-container{
+    background-image: url("https://live.staticflickr.com/65535/50024948852_f58d5f5bbc_z.jpg");
+  }
+  .contain {
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
 }
 
 .secondary-text-lighten {
