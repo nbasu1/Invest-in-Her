@@ -71,6 +71,10 @@ nav .sidenav-trigger i
   .cta-container{
     background-image: url("https://live.staticflickr.com/65535/50024948852_f58d5f5bbc_z.jpg");
   }
+  .contain {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 }
 
 /*.hero-image {
