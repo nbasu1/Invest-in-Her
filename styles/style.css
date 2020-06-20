@@ -99,9 +99,10 @@ nav .sidenav-trigger i
   }
   .contain {
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
   }
   .beginning {
     font-size: 80px;
+    margin-bottom: 25px;
   }
 }
