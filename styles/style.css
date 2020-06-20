@@ -86,19 +86,20 @@ nav .sidenav-trigger i
   margin-bottom: 7px;
 }
 
-/*@media only screen and (max-width: 735px) {
+@media only screen and (max-width: 735px) {
   .cta-container{
     background-image: url("https://live.staticflickr.com/65535/50024948852_f58d5f5bbc_z.jpg");
     background-repeat: no-repeat;
     background-position: center top;
-    background-attachment: scroll;
+    background-attachment: fixed;
+    background-size: cover;
   }
-  .contain {
+/*   .contain {
     padding-top: 80px;
     padding-bottom: 60px;
   }
   .beginning {
     font-size: 80px;
     margin-bottom: 25px;
-  }
-}*/
+  } */
+}
