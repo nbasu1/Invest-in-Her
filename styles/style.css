@@ -32,6 +32,12 @@
   }
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 735px), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .cta-container{
+    background-image: url("/Users/neha/Documents/Invest%20in%20Her/Invest%20in%20Her%20Website/Pictures/2girlsstanding.jpg");
+  }
+}
+
 .secondary-bg {
   background-color: var(--secondary-color);
 }
