@@ -88,18 +88,18 @@ nav .sidenav-trigger i
 
 @media only screen and (max-width: 735px) {
   .cta-container{
-    background-image: url("https://live.staticflickr.com/65535/50024948852_f58d5f5bbc_z.jpg");
+    background-image: url("https://live.staticflickr.com/65535/50025194407_fcb91341b2_z.jpg");
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center 70px;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
   }
-/*   .contain {
-    padding-top: 80px;
-    padding-bottom: 60px;
+  .contain {
+    padding-top: 70px;
+    padding-bottom: 50px;
   }
   .beginning {
     font-size: 80px;
     margin-bottom: 25px;
-  } */
+  }
 }
