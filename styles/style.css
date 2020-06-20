@@ -105,11 +105,11 @@ nav .sidenav-trigger i
   }
   .contain {
     padding-top: 70px;
-    padding-bottom: 60px;
+    padding-bottom: 75px;
   }
   .beginning {
     font-size: 80px;
-    margin-bottom: 20px;
+    margin-bottom: 0;
   }
 }
 
