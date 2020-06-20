@@ -64,6 +64,9 @@ nav .sidenav-trigger i
   position: relative;
   text-align: center;
   background-image: url("https://live.staticflickr.com/65535/50023320046_5d398d1e42_h.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: scroll;
   bottom: 38px;
 }
 
@@ -96,6 +99,9 @@ nav .sidenav-trigger i
 @media only screen and (max-width: 735px) {
   .cta-container {
     background-image: url("https://live.staticflickr.com/65535/50024948852_f58d5f5bbc_z.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
   }
   .contain {
     padding-top: 80px;
