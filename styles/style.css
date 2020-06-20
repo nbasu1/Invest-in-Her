@@ -26,6 +26,15 @@ html {
   }
 }*/
 
+.navbar-fixed {
+  height: 70px;
+  line-height: 70px;
+}
+
+nav .brand-logo {
+  font-size: 30px;
+}
+
 @media only screen and (min-width: 993px) {
   .container {
     width: 80%;
@@ -73,7 +82,7 @@ nav .sidenav-trigger i
   width: 75%;
   margin: auto;
   padding-top: 140px;
-  padding-bottom: 210px;
+  padding-bottom: 256px;
   font-family: 'Roboto Slab', serif;
 }
 
@@ -83,7 +92,7 @@ nav .sidenav-trigger i
 
 .beginning {
   font-size: 100px;
-  margin-bottom: 7px;
+  margin-bottom: 17px;
 }
 
 @media only screen and (max-width: 720px) {
