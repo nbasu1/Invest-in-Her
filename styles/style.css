@@ -95,7 +95,7 @@ nav .sidenav-trigger i
   margin-bottom: 17px;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 450px) {
   .cta-container{
     background-image: url("https://live.staticflickr.com/65535/50025194407_fcb91341b2_z.jpg");
     background-repeat: no-repeat;
