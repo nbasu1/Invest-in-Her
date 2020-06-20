@@ -32,7 +32,7 @@ html {
 }
 
 nav .brand-logo {
-  font-size: 30px;
+  font-size: 29px;
 }
 
 @media only screen and (min-width: 993px) {
@@ -109,7 +109,7 @@ nav .sidenav-trigger i
   }
   .beginning {
     font-size: 80px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
   }
 }
 
