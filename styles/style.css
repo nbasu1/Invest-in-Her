@@ -83,16 +83,6 @@ nav .sidenav-trigger i
   padding-bottom: 280px;
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 735px), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
-  .cta-container{
-    background-image: url("https://live.staticflickr.com/65535/50024948852_f58d5f5bbc_z.jpg");
-  }
-  .contain {
-    padding-top: 100px;
-    padding-bottom: 80px;
-  }
-}
-
 .secondary-text-lighten {
   color: var(--secondary-color-lighten-1);
 }
@@ -101,4 +91,17 @@ nav .sidenav-trigger i
   font-size: 100px;
   font-family: 'Roboto Slab', serif;
   margin-bottom: 7px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 735px), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .cta-container{
+    background-image: url("https://live.staticflickr.com/65535/50024948852_f58d5f5bbc_z.jpg");
+  }
+  .contain {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .beginning {
+    font-size: 70px;
+  }
 }
