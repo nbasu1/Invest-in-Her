@@ -32,12 +32,6 @@
   }
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 735px), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
-  .cta-container{
-    background-image: url("https://previews.123rf.com/images/yommy8008/yommy80081707/yommy8008170700064/82675767-vertical-photo-of-single-small-kitten-cat-sits-on-tile-in-herbs-garden-with-thyme-in-front-and-chive.jpg");
-  }
-}
-
 .secondary-bg {
   background-color: var(--secondary-color);
 }
@@ -69,13 +63,30 @@ nav .sidenav-trigger i
 .cta-container {
   position: relative;
   text-align: center;
+  background-image: url("https://live.staticflickr.com/65535/50023320046_5d398d1e42_h.jpg");
+  bottom: 38px;
 }
 
+/*@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 735px), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+  .cta-container{
+    background-image: url("https://previews.123rf.com/images/yommy8008/yommy80081707/yommy8008170700064/82675767-vertical-photo-of-single-small-kitten-cat-sits-on-tile-in-herbs-garden-with-thyme-in-front-and-chive.jpg");
+  }
+}*/
+
+/*.hero-image {
+  width: 100%;
+  object-fit: cover;
+}*/
+
 .contain {
-  position: absolute;
-  top: 43%;
+  /*position: absolute;*/
+/*  top: 43%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);*/
+  width: 75%;
+  margin: auto;
+  padding-top: 170px;
+  padding-bottom: 280px;
 }
 
 .secondary-text-lighten {
@@ -85,4 +96,5 @@ nav .sidenav-trigger i
 .beginning {
   font-size: 100px;
   font-family: 'Roboto Slab', serif;
+  margin-bottom: 7px;
 }
