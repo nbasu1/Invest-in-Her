@@ -27,8 +27,8 @@ html {
 }*/
 
 .navbar-fixed {
-  height: 70px;
-  line-height: 70px;
+  height: 63px;
+  line-height: 63px;
 }
 
 nav .brand-logo {
@@ -54,14 +54,14 @@ nav ul a:hover {
 }
 
 nav {
-  height: 70px;
-  line-height: 70px;
+  height: 63px;
+  line-height: 63px;
 }
 
 nav .sidenav-trigger i
 {
-  height: 70px;
-  line-height: 70px;
+  height: 63px;
+  line-height: 63px;
   color: white;
 }
 
@@ -82,7 +82,7 @@ nav .sidenav-trigger i
   width: 75%;
   margin: auto;
   padding-top: 140px;
-  padding-bottom: 256px;
+  padding-bottom: 200px;
   font-family: 'Roboto Slab', serif;
 }
 
@@ -108,7 +108,7 @@ nav .sidenav-trigger i
     padding-bottom: 130px;
   }
   .beginning {
-    font-size: 65px;
+    font-size: 68px;
     margin-top: 0px;
     margin-bottom: 0;
   }
@@ -116,4 +116,25 @@ nav .sidenav-trigger i
 
 .cta-text {
   font-size: 20px;
+}
+
+#whatwedo {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.wwa-head {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.events {
+  background-color: #75bfff;
+}
+
+#events {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-family: 'Roboto Slab', serif;
 }
