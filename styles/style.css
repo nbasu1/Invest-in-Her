@@ -135,7 +135,7 @@ nav .sidenav-trigger i
 
 #events {
   padding-top: 60px;
-  padding-bottom: 200px;
+  padding-bottom: 60px;
   font-family: 'Roboto Slab', serif;
 }
 
@@ -153,6 +153,12 @@ nav .sidenav-trigger i
 
 #whoweare {
   padding-top: 60px;
-  padding-bottom: 200px;
+  padding-bottom: 60px;
   font-family: 'Roboto Slab', serif;
+}
+
+#contact {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-family: 'Roboto Slab', serif;
 }
